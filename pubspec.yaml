@@ -50,6 +50,7 @@ dev_dependencies:
   test: ^1.15.2
   bloc_test: ^9.1.4
   equatable: ^2.0.5
+  connectivity_plus: ^4.0.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
