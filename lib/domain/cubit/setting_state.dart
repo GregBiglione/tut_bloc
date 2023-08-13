@@ -20,4 +20,9 @@ class SettingState extends Equatable {
     appNotification,
     emailNotification,
   ];
+
+  @override
+  String toString() {
+    return 'SettingState{appNotification: $appNotification, emailNotification: $emailNotification}';
+  }
 }

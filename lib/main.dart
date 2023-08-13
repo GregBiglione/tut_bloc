@@ -7,6 +7,7 @@ import 'package:tut_bloc/presentation/route/app_route.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'domain/cubit/counter_cubit.dart';
+import 'domain/utils/app_bloc_observer.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,6 +15,8 @@ void main() async {
   HydratedBloc.storage = await HydratedStorage.build(
       storageDirectory: await getApplicationDocumentsDirectory(),
   );
+
+  Bloc.observer = AppBlocObserver();
 
   runApp(MyApp(
     appRoute: AppRoute(),
@@ -40,6 +43,7 @@ class MyApp extends StatelessWidget {
         ),
         BlocProvider<CounterCubit>(
           create: (context) => CounterCubit(),
+          lazy: false,
         ),
       ],
       child: MaterialApp(
