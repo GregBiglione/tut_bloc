@@ -1,16 +1,20 @@
-# tut_bloc
+<b>TutBloc</b> is a Flutter application to test how BLoC works</br>
 
-A new Flutter project.
+<h2>Application features</h2></br>
+<ul>
+  <li>Manage application states with BLoC</li>
+  <li>Check what kind of connection is used (mobile, wifi, no connection)</li>
+  <li>Data persistance hydrated bloc</li>
+</ul>
 
-## Getting Started
+<h2>Packages</h2></br>
+<ul>
+ <li><a href="https://pub.dev/packages/flutter_bloc">flutter_bloc</a></li>
+ <li><a href="https://pub.dev/packages/test">test</a></li>
+ <li><a href="https://pub.dev/packages/bloc_test">bloc_test</a></li>
+ <li><a href="https://pub.dev/packages/equatable">equatable</a></li> 
+ <li><a href="https://pub.dev/packages/connectivity_plus">connectivity_plus</a></li>
+ <li><a href="https://pub.dev/packages/hydrated_bloc">hydrated_bloc</a></li>
+ <li><a href="https://pub.dev/packages/path_provider">path_provider</a></li>
+</ul>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
